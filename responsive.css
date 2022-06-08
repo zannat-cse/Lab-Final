@@ -1,0 +1,50 @@
+@media only screen and (max-width: 1200px) {
+  .container {
+    max-width: 960px;
+  }
+}
+@media only screen and (max-width: 991px) {
+  .box1 {
+    width: 47%;
+    float: left;
+  }
+  .box2 {
+    width: 47%;
+    float: left;
+  }
+  .box3 {
+    width: 100%;
+  }
+}
+@media only screen and (max-width: 767px) {
+  .container {
+    max-width: 570px;
+  }
+  .box {
+    width: 100%;
+    margin-bottom: 15px;
+  }
+  .box1 {
+    width: 47%;
+    float: left;
+  }
+  .box2 {
+    width: 47%;
+    float: right;
+  }
+  .box3 {
+    width: 100%;
+  }
+}
+
+@media only screen and (max-width: 480px) {
+  .box1 {
+    width: 100%;
+  }
+  .box2 {
+    width: 100%;
+  }
+  .box3 {
+    width: 100%;
+  }
+}

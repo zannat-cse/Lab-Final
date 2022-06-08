@@ -1,0 +1,65 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -o-box-sizing: border-box;
+  -ms-box-sizing: border-box;
+}
+body {
+  padding: 10px 0;
+  border: 3px solid red;
+}
+.container {
+  max-width: 100%;
+  margin: 0 auto;
+}
+h1 {
+  text-align: center;
+  padding-bottom: 30px;
+}
+.clearfix::after {
+  clear: both;
+  display: block;
+  content: "";
+}
+.clearfix::before {
+  clear: both;
+  display: block;
+  content: "";
+}
+input[type="button"] {
+  float: right;
+  width: 90px;
+}
+.box {
+  float: left;
+  width: 33%;
+  padding: 30px 15px;
+}
+.chicken {
+  background-color: rgb(181, 113, 88);
+}
+.box1 {
+  border: 2px solid black;
+  height: 200px;
+  background-color: gray;
+}
+.Beff {
+  background-color: red;
+  color: white;
+}
+.box2 {
+  border: 2px solid black;
+  height: 200px;
+  background-color: gray;
+}
+.Sushi {
+  background-color: burlywood;
+}
+.box3 {
+  border: 2px solid black;
+  height: 200px;
+  background-color: gray;
+}
