@@ -9,7 +9,7 @@
 }
 body {
   padding: 10px 0;
-  border: 3px solid red;
+  border: 1px solid red;
 }
 .container {
   max-width: 100%;
@@ -31,7 +31,6 @@ h1 {
 }
 input[type="button"] {
   float: right;
-  width: 90px;
 }
 .box {
   float: left;
@@ -48,7 +47,6 @@ input[type="button"] {
 }
 .Beff {
   background-color: red;
-  color: white;
 }
 .box2 {
   border: 2px solid black;
